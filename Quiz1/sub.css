@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+
+
+    width: 100%;
+    height: 1024px;
+    background: linear-gradient(rgba(237,200,255,1), rgba(237,200,255,0));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  h1 {
+    position: absolute;
+    width: 747px;
+    height: 184px;
+    left: 0%;
+    top: 146px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 184px;
+    color: #2A0044;
+    /* identical to box height */
+    
+    letter-spacing: 0.025em;
+    text-align:center;
+  }
+
+  .topnav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: none;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  li{
+    display: inline-block;
+    width: 100px;
+    margin: 30px 90px 30px 90px;
+    border-radius: 30px;
+    text-align: center;
+
+    color: #45205B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+    list-style-type: none;
+    font-style: oblique;
+    font-style: italic;
+
+    background:none;
+    border-radius: 35px;
+    text-align: center;
+  }
+  li:hover{
+    background: #ffffff;
+    border-radius: 35px;
+    text-align: center;
+    
+    
+  }
+
+  li a:link{
+    text-decoration: none;
+    color: #45205B;
+  }
+
+  li a:visited{
+    color: #45205B;
+  }
+
+  p{
+    position: absolute;
+    width: 1254px;
+    height: 279px;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+
+    font-family: Allerta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.045em;
+
+    color: #45205B;
+    letter-spacing: 0.025em;
+    text-align: justify;
+  }
+
+  .linkedin{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1287px;
+    top: 650px;
+  }
+
+  .insta{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1225px;
+    top: 650px;
+  }
+
+  h2{
+    position: absolute;
+    width: 500px;
+    height: 61px;
+    left: 93px;
+    top: 150px;
+
+    font-family: Allerta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 61px;
+    letter-spacing: -0.045em;
+
+    color: #45205B;
+  }
+
+  .rus{
+    position: absolute;
+    width: 248px;
+    height: 165px;
+    left: -20px;
+    top: 600px;
+
+    transform: rotate(-9.5deg);
+  }
+
+  .uk{
+    position: absolute;
+    width: 318px;
+    height: 159px;
+    left: 132.09px;
+    top: 650px;
+
+    transform: rotate(4deg);
+  }
+
+  .py{
+    position: absolute;
+    width: 110.42px;
+    height: 109.85px;
+    left: 1268px;
+    top: 216.44px;
+
+    transform: rotate(-16deg);
+  }
+
+  .btc{
+    position: absolute;
+    width: 139px;
+    height: 139px;
+    left: 1370px;
+    top: 153px;
+  }
+
+  .moon{
+    position: absolute;
+    width: 370px;
+    height: 185px;
+    left: 1200px;
+    top: 100px;
+
+    background: url(maimoon.jpg);
+    border-radius: 135px;
+  }
+
+  .bika{
+    position: absolute;
+    width: 224.82px;
+    height: 205.15px;
+    left: 1250px;
+    top: 65px;
+
+    background: url(bika.jpg);
+    border-radius: 79px;
+    transform: rotate(-8deg);
+  }
+
+  .tj{
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 590px;
+    top: 550px;
+
+    background: url(Skewed_Front_View,_Tjong_A_Fie_Mansion,_Medan.jpg);
+    border-radius: 35px;
+  }
+
+  .chall{
+    position: absolute;
+    width: 299px;
+    height: 290px;
+    left: -53px;
+    top: 500px;
+
+    background: url(Medan_old_city_hall.jpg);
+    border-radius: 35px;
+  }
+
+  .mos{
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 273px;
+    top: 525px;
+
+    background: url(Great_mosque_in_Medan_cropped.jpg);
+    border-radius: 35px;
+  }
